@@ -10,11 +10,11 @@ import torch
 from einops import rearrange
 from jaxtyping import Bool, Float, Int
 
-from model.distribution import DISTRIBUTION_CLASSES_LOOKUP, DistributionOutput
-from model.embedding import PatchEmbedding
-from model.scaler import scaler_types
-from model.transformer import Transformer
-from model.util import KVCache
+from toto.model.distribution import DISTRIBUTION_CLASSES_LOOKUP, DistributionOutput
+from toto.model.embedding import PatchEmbedding
+from toto.model.scaler import scaler_types
+from toto.model.transformer import Transformer
+from toto.model.util import KVCache
 
 
 class TotoOutput(NamedTuple):

@@ -11,7 +11,7 @@ import torch
 from einops import rearrange
 from jaxtyping import Float, Int
 
-from model.attention import TimeWiseMultiheadAttention
+from toto.model.attention import TimeWiseMultiheadAttention
 
 if TYPE_CHECKING:
     from model.transformer import TransformerLayer  # Import only for type checking

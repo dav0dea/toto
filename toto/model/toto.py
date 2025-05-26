@@ -13,9 +13,9 @@ import safetensors.torch as safetorch
 import torch
 from huggingface_hub import ModelHubMixin, constants, hf_hub_download
 
-from model.attention import XFORMERS_AVAILABLE
-from model.backbone import TotoBackbone
-from model.transformer import XFORMERS_SWIGLU_AVAILABLE
+from toto.model.attention import XFORMERS_AVAILABLE
+from toto.model.backbone import TotoBackbone
+from toto.model.transformer import XFORMERS_SWIGLU_AVAILABLE
 
 
 class Toto(torch.nn.Module, ModelHubMixin):
